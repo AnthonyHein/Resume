@@ -1,0 +1,185 @@
+/*  FONTS   */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Roboto+Mono:wght@100;300;400&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+/*  COLORS  */
+/* ORANGE: #E17055 */
+/* BLUE: #74B9FF */
+/* GRAY: #9AA5AA */
+
+.orange {
+    color: #E17055;
+}
+
+.blue {
+    color: #74B9FF;
+}
+
+.dark-blue {
+    color: #65A4E2;
+}
+
+.gray {
+    color: #9AA5AA;
+}
+
+
+/*  GLOBAL STANDARDS */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html,
+body {
+    background-color: #585C68;
+    color: #9AA5AA;
+    font-weight: 400;
+    line-height: 1.4;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+
+/*  FOR USE IN HEADERS  */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h4 {
+    text-transform: none;
+}
+
+/*  FOR USE IN PARAGRAPHS   */
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #74B9FF;
+    
+}
+
+/*  FOR USE IN CODE */
+.code {
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.bold {
+  color: #555;
+}
+
+.semi-bold {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/*  RESUME SECTION  */
+.resume {
+    background-color: #FFF;
+    width: 8.5in;
+    height: 11in;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin: 0px auto;
+}
+
+.resume__content {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 10px;
+    order: 1;
+    flex-grow: 11;
+}
+
+.resume__header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.resume__name {
+    margin-right: auto;
+}
+
+.resume__contacts {
+    text-align: right;
+}
+
+.resume__contacts p {
+    font-weight: 300;
+}
+
+.resume__body {
+    margin: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+}
+
+.resume__sidebar {
+    margin-right: 15px;
+    border-right: 1px solid #9AA5AA;
+    padding-right: 3px;
+}
+
+.coursework {
+    margin-left: 30px;
+    font-size: 12px;
+    line-height: 1.1;
+}
+
+.resume__mainbar {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.resume__objective {
+    margin: 5px;
+    text-align: left;
+}
+
+.resume__languages {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.resume__smallbreak {
+    margin-top: 7px;
+}
+
+.resume__acknowledgement {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+.resume__acknowledgement p {
+    font-size: 8px;
+}
+
+
+.resume__banner {
+
+    background: linear-gradient(to bottom, #E17055, #74B9FF, #9AA5AA);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: 2;
+    flex-basis: 25px;
+    flex-grow: 1;
+}
