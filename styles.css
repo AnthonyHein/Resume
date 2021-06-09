@@ -6,15 +6,15 @@
 /* GRAY: #000 */
 
 .primary {
-    color: #226CE0;
+    color: #1E2A45;
 }
 
-.secondary {
-    color: #000;
+.accent {
+    color: #0099FF;
 }
 
 .text {
-    color: #000;
+    color: #1E2A45;
 }
 
 /*  GLOBAL STANDARDS */
@@ -162,7 +162,7 @@ a {
 /* BANNER */
 
 .resume__banner {
-    background: linear-gradient(to bottom, #226CE0, #000, #000);
+    background: linear-gradient(to bottom, #1E2A45, #1E2A45,  #0099FF);
     display: flex;
     align-items: center;
     justify-content: center;
