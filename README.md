@@ -1,2 +1,3 @@
 # Resume
-Attempting to create a resume using HTML and CSS (with emphasis on Flexbox).
+
+This is my resume, created with HTML and CSS.
